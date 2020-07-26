@@ -1,0 +1,46 @@
+{
+  "name": "rnn-hooks",
+  "version": "1.1.0",
+  "description": "Alternative API for react-native-navigation",
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "dist/index.js",
+  "types": "dist",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "navigation",
+    "hooks"
+  ],
+  "author": "abdul@radadi.me",
+  "license": "MIT",
+  "dependencies": {
+    "hoist-non-react-statics": "^3.3.2",
+    "lodash.debounce": "^4.0.8"
+  },
+  "devDependencies": {
+    "@types/hoist-non-react-statics": "^3.3.1",
+    "@types/lodash": "^4.14.158",
+    "@types/node": "^14.0.26",
+    "@types/react": "^16.9.43",
+    "@types/react-native": "^0.63.2",
+    "eslint": "^7.5.0",
+    "eslint-config-rn-ts": "^1.2.0",
+    "react": "^16.13.1",
+    "react-native": "^0.63.2",
+    "react-native-navigation": "^6.10.1",
+    "typescript": "^3.9.7"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-native": ">=61",
+    "react-native-navigation": ">=6.10"
+  }
+}
