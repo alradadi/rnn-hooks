@@ -1,6 +1,6 @@
 {
   "name": "rnn-hooks",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Alternative API for react-native-navigation",
   "files": [
     "dist/",
@@ -19,6 +19,10 @@
     "navigation",
     "hooks"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alradadi/rnn-hooks.git"
+  },
   "author": "abdul@radadi.me",
   "license": "MIT",
   "dependencies": {
