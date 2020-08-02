@@ -1,1 +1,1 @@
-type Dict = Record<string, unknown>;
+type Dict = Record<string, any>;

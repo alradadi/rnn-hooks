@@ -1,9 +1,9 @@
-import { ComponentType, useContext, useEffect, useMemo, useRef } from 'react';
+import { ElementType, useContext, useEffect, useMemo, useRef } from 'react';
 import { Navigation, Options } from 'react-native-navigation';
 
 import { NavContext } from './NavProvider';
 
-type NavComp<P = Dict> = ComponentType<P> & {
+type NavComp<P = Dict> = ElementType<P> & {
   navId: string;
   options?: () => Options;
 };
