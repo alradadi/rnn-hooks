@@ -6,7 +6,6 @@ export const NavContext = createContext({
 
 interface Props {
   componentId: string;
-  children: React.ReactChild;
 }
 
 export class NavProvider extends Component<Props> {
