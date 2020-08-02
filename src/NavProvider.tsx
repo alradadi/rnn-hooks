@@ -1,4 +1,4 @@
-import React, { Component, createContext } from 'react';
+import React, { createContext } from 'react';
 
 export const NavContext = createContext({
   componentId: '',
@@ -6,15 +6,13 @@ export const NavContext = createContext({
 
 interface Props {
   componentId: string;
+  children: React.ReactChild;
 }
 
-export class NavProvider extends Component<Props> {
-  public render() {
-    const { componentId, children } = this.props;
-    return (
-      <NavContext.Provider value={{ componentId }}>
-        {children}
-      </NavContext.Provider>
-    );
-  }
-}
+export const NavProvider = ({ children, componentId }: Props) => {
+  return (
+    <NavContext.Provider value={{ componentId }}>
+      {children}
+    </NavContext.Provider>
+  );
+};
