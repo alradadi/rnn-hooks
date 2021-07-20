@@ -38,7 +38,7 @@
     "eslint": "^7.5.0",
     "eslint-config-rn-ts": "^1.2.0",
     "react": "^16.13.1",
-    "react-native": "^0.63.2",
+    "react-native": "^0.64.1",
     "react-native-navigation": "^6.10.1",
     "typescript": "^3.9.7"
   },
